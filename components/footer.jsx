@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { ExternalLink, Mail } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -35,9 +35,9 @@ export function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: ExternalLink, href: '#', label: 'Twitter' },
+    { icon: ExternalLink, href: '#', label: 'GitHub' },
+    { icon: ExternalLink, href: '#', label: 'LinkedIn' },
     { icon: Mail, href: '#', label: 'Email' },
   ];
 
